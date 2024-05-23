@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "WalletIos"
-  spec.version      = "1.0.1"
+  spec.version      = "1.0.0"
   spec.summary      = "This is wallet framework."
   spec.description  = "This framework is use to bridge"
   spec.homepage     = "https://github.com/akshpreetCbl/WalletIos"
