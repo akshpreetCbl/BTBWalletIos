@@ -1365,7 +1365,6 @@
 		4CD43A4F2BFDF63400234E84 /* UnicodeURL in Frameworks */ = {isa = PBXBuildFile; productRef = 4CD43A4E2BFDF63400234E84 /* UnicodeURL */; };
 		4CD43A512BFDF65600234E84 /* WalletConnect in Frameworks */ = {isa = PBXBuildFile; productRef = 4CD43A502BFDF65600234E84 /* WalletConnect */; };
 		84A3A2F52BFDCE9600798524 /* CollectionViewCenteredFlowLayout in Frameworks */ = {isa = PBXBuildFile; productRef = 84A3A2F42BFDCE9600798524 /* CollectionViewCenteredFlowLayout */; };
-		84A3A3092BFDD31900798524 /* EvmKit in Frameworks */ = {isa = PBXBuildFile; productRef = 84A3A3082BFDD31900798524 /* EvmKit */; };
 		84A3A30C2BFDD34100798524 /* Eip20Kit in Frameworks */ = {isa = PBXBuildFile; productRef = 84A3A30B2BFDD34100798524 /* Eip20Kit */; };
 		84A3A30F2BFDD36100798524 /* NftKit in Frameworks */ = {isa = PBXBuildFile; productRef = 84A3A30E2BFDD36100798524 /* NftKit */; };
 		84A3A3122BFDD38800798524 /* UniswapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 84A3A3112BFDD38800798524 /* UniswapKit */; };
@@ -1373,7 +1372,6 @@
 		84A3A3182BFDD3F200798524 /* BitcoinKit in Frameworks */ = {isa = PBXBuildFile; productRef = 84A3A3172BFDD3F200798524 /* BitcoinKit */; };
 		84A3A31B2BFDD41B00798524 /* BitcoinCashKit in Frameworks */ = {isa = PBXBuildFile; productRef = 84A3A31A2BFDD41B00798524 /* BitcoinCashKit */; };
 		84A3A31E2BFDD45F00798524 /* LitecoinKit in Frameworks */ = {isa = PBXBuildFile; productRef = 84A3A31D2BFDD45F00798524 /* LitecoinKit */; };
-		84A3A3212BFDD49000798524 /* MarketKit in Frameworks */ = {isa = PBXBuildFile; productRef = 84A3A3202BFDD49000798524 /* MarketKit */; };
 		84A3A3242BFDD4B300798524 /* ScanQrKit in Frameworks */ = {isa = PBXBuildFile; productRef = 84A3A3232BFDD4B300798524 /* ScanQrKit */; };
 		84A3A3272BFDD4DA00798524 /* ModuleKit in Frameworks */ = {isa = PBXBuildFile; productRef = 84A3A3262BFDD4DA00798524 /* ModuleKit */; };
 		84A3A32A2BFDD4F800798524 /* CurrencyKit in Frameworks */ = {isa = PBXBuildFile; productRef = 84A3A3292BFDD4F800798524 /* CurrencyKit */; };
@@ -1408,6 +1406,8 @@
 		84A6E7FC2BFDBD2800F6F54B /* DeepDiff in Frameworks */ = {isa = PBXBuildFile; productRef = 84A6E7FB2BFDBD2800F6F54B /* DeepDiff */; };
 		84A6E7FF2BFDBD5D00F6F54B /* AlignedCollectionViewFlowLayout in Frameworks */ = {isa = PBXBuildFile; productRef = 84A6E7FE2BFDBD5D00F6F54B /* AlignedCollectionViewFlowLayout */; };
 		84A6E8012BFDBD8E00F6F54B /* WalletIOSConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A6E8002BFDBD8E00F6F54B /* WalletIOSConfig.swift */; };
+		84AA13DC2BFF47990077DDF8 /* EvmKit in Frameworks */ = {isa = PBXBuildFile; productRef = 84AA13DB2BFF47990077DDF8 /* EvmKit */; };
+		84AA13DE2BFF498B0077DDF8 /* MarketKit in Frameworks */ = {isa = PBXBuildFile; productRef = 84AA13DD2BFF498B0077DDF8 /* MarketKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -2847,8 +2847,6 @@
 				84A3A34F2BFDD78E00798524 /* ComponentKit in Frameworks */,
 				84A3A3122BFDD38800798524 /* UniswapKit in Frameworks */,
 				84A3A30F2BFDD36100798524 /* NftKit in Frameworks */,
-				84A3A3212BFDD49000798524 /* MarketKit in Frameworks */,
-				84A3A3092BFDD31900798524 /* EvmKit in Frameworks */,
 				84A3A3582BFDD7F200798524 /* SectionsTableView in Frameworks */,
 				84A6E7F92BFDBC8800F6F54B /* Down in Frameworks */,
 				84A3A3752BFDDAB000798524 /* ObjectMapper in Frameworks */,
@@ -2879,8 +2877,10 @@
 				4CD43A4B2BFDF5FF00234E84 /* RxCocoa in Frameworks */,
 				84A3A32A2BFDD4F800798524 /* CurrencyKit in Frameworks */,
 				84A3A31B2BFDD41B00798524 /* BitcoinCashKit in Frameworks */,
+				84AA13DC2BFF47990077DDF8 /* EvmKit in Frameworks */,
 				84A3A34C2BFDD73B00798524 /* ThemeKit in Frameworks */,
 				4CD43A432BFDF4AA00234E84 /* AVFoundation.framework in Frameworks */,
+				84AA13DE2BFF498B0077DDF8 /* MarketKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -6552,8 +6552,6 @@
 		84A6E7302BFDB45000F6F54B = {
 			isa = PBXGroup;
 			children = (
-				84A6E8002BFDBD8E00F6F54B /* WalletIOSConfig.swift */,
-				4CD42E922BFDF1F800234E84 /* UnstoppableWallet */,
 				84A6E73C2BFDB45000F6F54B /* WalletIos */,
 				4CD42E772BFDEEE500234E84 /* Example */,
 				84A6E73B2BFDB45000F6F54B /* Products */,
@@ -6574,7 +6572,9 @@
 		84A6E73C2BFDB45000F6F54B /* WalletIos */ = {
 			isa = PBXGroup;
 			children = (
+				84A6E8002BFDBD8E00F6F54B /* WalletIOSConfig.swift */,
 				84A6E73D2BFDB45000F6F54B /* WalletIos.h */,
+				4CD42E922BFDF1F800234E84 /* UnstoppableWallet */,
 			);
 			path = WalletIos;
 			sourceTree = "<group>";
@@ -6631,7 +6631,6 @@
 				84A6E7FB2BFDBD2800F6F54B /* DeepDiff */,
 				84A6E7FE2BFDBD5D00F6F54B /* AlignedCollectionViewFlowLayout */,
 				84A3A2F42BFDCE9600798524 /* CollectionViewCenteredFlowLayout */,
-				84A3A3082BFDD31900798524 /* EvmKit */,
 				84A3A30B2BFDD34100798524 /* Eip20Kit */,
 				84A3A30E2BFDD36100798524 /* NftKit */,
 				84A3A3112BFDD38800798524 /* UniswapKit */,
@@ -6639,7 +6638,6 @@
 				84A3A3172BFDD3F200798524 /* BitcoinKit */,
 				84A3A31A2BFDD41B00798524 /* BitcoinCashKit */,
 				84A3A31D2BFDD45F00798524 /* LitecoinKit */,
-				84A3A3202BFDD49000798524 /* MarketKit */,
 				84A3A3232BFDD4B300798524 /* ScanQrKit */,
 				84A3A3262BFDD4DA00798524 /* ModuleKit */,
 				84A3A3292BFDD4F800798524 /* CurrencyKit */,
@@ -6675,6 +6673,8 @@
 				4CD43A4C2BFDF61000234E84 /* RxRelay */,
 				4CD43A4E2BFDF63400234E84 /* UnicodeURL */,
 				4CD43A502BFDF65600234E84 /* WalletConnect */,
+				84AA13DB2BFF47990077DDF8 /* EvmKit */,
+				84AA13DD2BFF498B0077DDF8 /* MarketKit */,
 			);
 			productName = WalletIos;
 			productReference = 84A6E73A2BFDB45000F6F54B /* WalletIos.framework */;
@@ -6745,7 +6745,6 @@
 				84A6E7FA2BFDBD2800F6F54B /* XCRemoteSwiftPackageReference "DeepDiff" */,
 				84A6E7FD2BFDBD5D00F6F54B /* XCRemoteSwiftPackageReference "AlignedCollectionViewFlowLayout" */,
 				84A3A2F32BFDCE9600798524 /* XCRemoteSwiftPackageReference "CollectionViewCenteredFlowLayout" */,
-				84A3A3072BFDD31900798524 /* XCRemoteSwiftPackageReference "EvmKit" */,
 				84A3A30A2BFDD34100798524 /* XCRemoteSwiftPackageReference "Eip20Kit" */,
 				84A3A30D2BFDD36100798524 /* XCRemoteSwiftPackageReference "NftKit" */,
 				84A3A3102BFDD38800798524 /* XCRemoteSwiftPackageReference "UniswapKit" */,
@@ -6753,7 +6752,6 @@
 				84A3A3162BFDD3F200798524 /* XCRemoteSwiftPackageReference "BitcoinKit" */,
 				84A3A3192BFDD41B00798524 /* XCRemoteSwiftPackageReference "BitcoinCashKit" */,
 				84A3A31C2BFDD45F00798524 /* XCRemoteSwiftPackageReference "LitecoinKit" */,
-				84A3A31F2BFDD49000798524 /* XCRemoteSwiftPackageReference "MarketKit" */,
 				84A3A3222BFDD4B300798524 /* XCRemoteSwiftPackageReference "ScanQrKit" */,
 				84A3A3252BFDD4DA00798524 /* XCRemoteSwiftPackageReference "ModuleKit" */,
 				84A3A3282BFDD4F800798524 /* XCRemoteSwiftPackageReference "CurrencyKit" */,
@@ -6785,6 +6783,8 @@
 				84A3A3702BFDDA5800798524 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
 				84A3A3732BFDDAB000798524 /* XCRemoteSwiftPackageReference "ObjectMapper" */,
 				84A3A3762BFDDAE100798524 /* XCRemoteSwiftPackageReference "zcash-light-client-ffi" */,
+				84AA13D92BFF44F30077DDF8 /* XCRemoteSwiftPackageReference "EvmKit" */,
+				84AA13DA2BFF45580077DDF8 /* XCRemoteSwiftPackageReference "MarketKit" */,
 			);
 			productRefGroup = 84A6E73B2BFDB45000F6F54B /* Products */;
 			projectDirPath = "";
@@ -8608,14 +8608,6 @@
 				minimumVersion = 1.0.4;
 			};
 		};
-		84A3A3072BFDD31900798524 /* XCRemoteSwiftPackageReference "EvmKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/horizontalsystems/EvmKit.Swift";
-			requirement = {
-				kind = exactVersion;
-				version = 2.0.7;
-			};
-		};
 		84A3A30A2BFDD34100798524 /* XCRemoteSwiftPackageReference "Eip20Kit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/horizontalsystems/Eip20Kit.Swift";
@@ -8670,14 +8662,6 @@
 			requirement = {
 				kind = exactVersion;
 				version = 2.1.0;
-			};
-		};
-		84A3A31F2BFDD49000798524 /* XCRemoteSwiftPackageReference "MarketKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/horizontalsystems/MarketKit.Swift";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.0.11;
 			};
 		};
 		84A3A3222BFDD4B300798524 /* XCRemoteSwiftPackageReference "ScanQrKit" */ = {
@@ -8960,6 +8944,22 @@
 				kind = branch;
 			};
 		};
+		84AA13D92BFF44F30077DDF8 /* XCRemoteSwiftPackageReference "EvmKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/horizontalsystems/EvmKit.Swift";
+			requirement = {
+				kind = exactVersion;
+				version = 2.0.7;
+			};
+		};
+		84AA13DA2BFF45580077DDF8 /* XCRemoteSwiftPackageReference "MarketKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/horizontalsystems/MarketKit.Swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.11;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -9003,11 +9003,6 @@
 			package = 84A3A2F32BFDCE9600798524 /* XCRemoteSwiftPackageReference "CollectionViewCenteredFlowLayout" */;
 			productName = CollectionViewCenteredFlowLayout;
 		};
-		84A3A3082BFDD31900798524 /* EvmKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 84A3A3072BFDD31900798524 /* XCRemoteSwiftPackageReference "EvmKit" */;
-			productName = EvmKit;
-		};
 		84A3A30B2BFDD34100798524 /* Eip20Kit */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 84A3A30A2BFDD34100798524 /* XCRemoteSwiftPackageReference "Eip20Kit" */;
@@ -9042,11 +9037,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 84A3A31C2BFDD45F00798524 /* XCRemoteSwiftPackageReference "LitecoinKit" */;
 			productName = LitecoinKit;
-		};
-		84A3A3202BFDD49000798524 /* MarketKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 84A3A31F2BFDD49000798524 /* XCRemoteSwiftPackageReference "MarketKit" */;
-			productName = MarketKit;
 		};
 		84A3A3232BFDD4B300798524 /* ScanQrKit */ = {
 			isa = XCSwiftPackageProductDependency;
@@ -9202,6 +9192,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 84A6E7FD2BFDBD5D00F6F54B /* XCRemoteSwiftPackageReference "AlignedCollectionViewFlowLayout" */;
 			productName = AlignedCollectionViewFlowLayout;
+		};
+		84AA13DB2BFF47990077DDF8 /* EvmKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84AA13D92BFF44F30077DDF8 /* XCRemoteSwiftPackageReference "EvmKit" */;
+			productName = EvmKit;
+		};
+		84AA13DD2BFF498B0077DDF8 /* MarketKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84AA13DA2BFF45580077DDF8 /* XCRemoteSwiftPackageReference "MarketKit" */;
+			productName = MarketKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
