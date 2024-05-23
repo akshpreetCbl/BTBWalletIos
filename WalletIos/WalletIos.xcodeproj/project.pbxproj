@@ -1364,6 +1364,7 @@
 		4CD43A4D2BFDF61000234E84 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 4CD43A4C2BFDF61000234E84 /* RxRelay */; };
 		4CD43A4F2BFDF63400234E84 /* UnicodeURL in Frameworks */ = {isa = PBXBuildFile; productRef = 4CD43A4E2BFDF63400234E84 /* UnicodeURL */; };
 		4CD43A512BFDF65600234E84 /* WalletConnect in Frameworks */ = {isa = PBXBuildFile; productRef = 4CD43A502BFDF65600234E84 /* WalletConnect */; };
+		845C18282BFF518D00089568 /* WalletIos.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 845C18272BFF518D00089568 /* WalletIos.podspec */; };
 		84A3A2F52BFDCE9600798524 /* CollectionViewCenteredFlowLayout in Frameworks */ = {isa = PBXBuildFile; productRef = 84A3A2F42BFDCE9600798524 /* CollectionViewCenteredFlowLayout */; };
 		84A3A30C2BFDD34100798524 /* Eip20Kit in Frameworks */ = {isa = PBXBuildFile; productRef = 84A3A30B2BFDD34100798524 /* Eip20Kit */; };
 		84A3A30F2BFDD36100798524 /* NftKit in Frameworks */ = {isa = PBXBuildFile; productRef = 84A3A30E2BFDD36100798524 /* NftKit */; };
@@ -2812,6 +2813,7 @@
 		4CD43A402BFDF49D00234E84 /* AVFAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFAudio.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.0.sdk/System/Library/Frameworks/AVFAudio.framework; sourceTree = DEVELOPER_DIR; };
 		4CD43A422BFDF4AA00234E84 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
 		4CD43A482BFDF5DA00234E84 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.0.sdk/System/Library/Frameworks/LocalAuthentication.framework; sourceTree = DEVELOPER_DIR; };
+		845C18272BFF518D00089568 /* WalletIos.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WalletIos.podspec; sourceTree = "<group>"; };
 		84A6E73A2BFDB45000F6F54B /* WalletIos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WalletIos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84A6E73D2BFDB45000F6F54B /* WalletIos.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WalletIos.h; sourceTree = "<group>"; };
 		84A6E7442BFDB45000F6F54B /* WalletIosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalletIosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -6552,6 +6554,7 @@
 		84A6E7302BFDB45000F6F54B = {
 			isa = PBXGroup;
 			children = (
+				845C18272BFF518D00089568 /* WalletIos.podspec */,
 				84A6E73C2BFDB45000F6F54B /* WalletIos */,
 				4CD42E772BFDEEE500234E84 /* Example */,
 				84A6E73B2BFDB45000F6F54B /* Products */,
@@ -6814,6 +6817,7 @@
 			files = (
 				4CD436172BFDF20300234E84 /* AppIconDev.xcassets in Resources */,
 				4CD435912BFDF20300234E84 /* LaunchScreen.xib in Resources */,
+				845C18282BFF518D00089568 /* WalletIos.podspec in Resources */,
 				4CD436182BFDF20300234E84 /* AppIconAlternate.xcassets in Resources */,
 				4CD435042BFDF20300234E84 /* Production.template.xcconfig in Resources */,
 				4CD435922BFDF20300234E84 /* AppIcon.xcassets in Resources */,

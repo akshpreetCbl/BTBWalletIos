@@ -23,7 +23,7 @@ spec.platform     = :ios, "14.0"
 
 
   
-  spec.source_files  = "WalletIos/**/*"
+  spec.source_files  = 'WalletIos/**/*.swift'
  
-spec.swift_version = "50"
+spec.swift_version = "5.0"
 end
