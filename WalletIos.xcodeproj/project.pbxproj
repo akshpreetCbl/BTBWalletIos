@@ -2895,6 +2895,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4CA4B7062BFF94D70051241E /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				84A6E8002BFDBD8E00F6F54B /* WalletIOSConfig.swift */,
+				84A6E73D2BFDB45000F6F54B /* WalletIos.h */,
+				4CD42E922BFDF1F800234E84 /* UnstoppableWallet */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
 		4CD42E772BFDEEE500234E84 /* Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -6572,9 +6582,7 @@
 		84A6E73C2BFDB45000F6F54B /* WalletIos */ = {
 			isa = PBXGroup;
 			children = (
-				84A6E8002BFDBD8E00F6F54B /* WalletIOSConfig.swift */,
-				84A6E73D2BFDB45000F6F54B /* WalletIos.h */,
-				4CD42E922BFDF1F800234E84 /* UnstoppableWallet */,
+				4CA4B7062BFF94D70051241E /* Sources */,
 			);
 			path = WalletIos;
 			sourceTree = "<group>";

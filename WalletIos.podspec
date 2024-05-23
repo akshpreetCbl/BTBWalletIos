@@ -3,7 +3,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "WalletIos"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.2"
   spec.summary      = "This is wallet framework."
   spec.description  = "This framework is use to bridge"
 
@@ -12,13 +12,13 @@ Pod::Spec.new do |spec|
 
   spec.license      = "MIT"
 
-  spec.author      = { "Akshpreet Singh" => "akshpreet.singh@codebrewinnovations.com" }
+  spec.author      = { "Akshpreet Singh" => "akshpreet.codebrewinnovations@gmail.com" }
 
 
 spec.platform     = :ios, "14.0"
  spec.source       = { :git => "https://github.com/akshpreetCbl/WalletIos.git", :tag => spec.version.to_s}
   
-  spec.source_files  = "WalletIos/**/*"
+  spec.source_files  = "WalletIos/WalletIos/*.{h,m,swift}"
  
 spec.swift_version = "5.0"
 end
