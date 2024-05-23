@@ -18,7 +18,7 @@ Pod::Spec.new do |spec|
 spec.platform     = :ios, "14.0"
  spec.source       = { :git => "https://github.com/akshpreetCbl/WalletIos.git", :tag => spec.version.to_s}
   
-  spec.source_files  = "WalletIos/Sources/*.{h,m,swift}"
+  spec.source_files  = "WalletIos/Sources/**/*.{h,m,swift}"
  
 spec.swift_version = "5.0"
 end
